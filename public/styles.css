@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+body {
+  background-color: #e0e5ec;
+  /* background-color: #ffeaa7; */
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  margin-top: -10px;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 400px;
+  min-width: 350px;
+  background: #e0e5ec;
+  /* background-image: radial-gradient(#bfc0c1 7.2%, transparent 0); */
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px #a2b1c6, -4px -4px 10px #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  font-size: 130%;
+  font-family: "Caveat", cursive;
+  width: fit-content;
+  font-family: "Caveat", cursive;
+  color: #c48dc0;
+  margin: 5px auto;
+  text-shadow: -0.5px -0.5px 2px #b16cac, 0.5px 0.5px 2px #d2aacf;
+}
+
+.form input {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.52rem 1.5rem;
+  border: solid 1px #ccc;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: #ad94cd;
+  width: 60.5%;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  outline: none;
+  box-shadow: inset 4px 4px 10px #a2b1c6, inset -4px -4px 10px #fff;
+}
+
+button {
+  border: 0.5px solid #ccc;
+  border-left: none;
+  height: 41px;
+  padding: 0;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 0px;
+  background-color: #c38cbe;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: inset -4px -4px 10px #b16cac, inset 4px 4px 10px #d2aacf;
+}
+button span {
+  font-size: 128%;
+  border-radius: 2px;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  color: #e0e5ec;
+  background-color: transparent;
+  padding: 0.3rem 0.7rem;
+  display: block;
+}
+button:active {
+  box-shadow: inset 4px 4px 10px #b16cac, inset -4px -4px 10px #d2aacf;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+li {
+  box-sizing: border-box;
+  margin: 10px 0;
+  min-width: 250px;
+  max-width: 250px;
+  text-align: left;
+  position: relative;
+  padding: 0.4rem 0.6rem;
+  list-style: none;
+  font-size: 100%;
+  font-family: "Caveat", cursive;
+  margin-left: -35px;
+  /* border: 2px solid black; */
+}
+li {
+  /* margin-left: -35px; */
+  color: #ad94cd;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  box-shadow: inset 5px 5px 10px rgba(90, 104, 121, 0.2888),
+    inset -5px -5px 10px #fff;
+  box-shadow: 4px 4px 10px #a2b1c6, -4px -4px 10px #fff;
+  border: 0.5px solid #ccc;
+}
+
+.btn {
+  right: 1px;
+  top: 1px;
+  position: absolute;
+  color: #e0e5ec;
+  font-family: "Caveat", cursive;
+  font-size: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+  box-shadow: inset -4px -4px 10px #b16cac, inset 4px 4px 10px #d2aacf;
+  width: 50px;
+  height: 37px;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: #c28bbe;
+  border: none;
+  padding-bottom: 6px;
+}
+.btn:active {
+  box-shadow: inset 4px 4px 10px #b16cac, inset -4px -4px 10px #d2aacf;
+}
