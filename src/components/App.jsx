@@ -28,8 +28,10 @@ function App() {
   }
 
   function addItem(event) {
-    setItems([...items, { title: inputText, status: false, id: uuid() }]);
-    setInputText("");
+    if (inputText !== "") {
+      setItems([...items, { title: inputText, status: false, id: uuid() }]);
+      setInputText("");
+    }
     event.preventDefault();
   }
 
